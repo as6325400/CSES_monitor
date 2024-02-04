@@ -1,0 +1,1857 @@
+{
+  "Introductory Problems": {
+    "tags": "Introductory Problems",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Weird Algorithm",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1068"
+      },
+      {
+        "id": "task",
+        "title": "Missing Number",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1083"
+      },
+      {
+        "id": "task",
+        "title": "Repetitions",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1069"
+      },
+      {
+        "id": "task",
+        "title": "Increasing Array",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1094"
+      },
+      {
+        "id": "task",
+        "title": "Permutations",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1070"
+      },
+      {
+        "id": "task",
+        "title": "Number Spiral",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1071"
+      },
+      {
+        "id": "task",
+        "title": "Two Knights",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1072"
+      },
+      {
+        "id": "task",
+        "title": "Two Sets",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1092"
+      },
+      {
+        "id": "task",
+        "title": "Bit Strings",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1617"
+      },
+      {
+        "id": "task",
+        "title": "Trailing Zeros",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1618"
+      },
+      {
+        "id": "task",
+        "title": "Coin Piles",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1754"
+      },
+      {
+        "id": "task",
+        "title": "Palindrome Reorder",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1755"
+      },
+      {
+        "id": "task",
+        "title": "Gray Code",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/2205"
+      },
+      {
+        "id": "task",
+        "title": "Tower of Hanoi",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/2165"
+      },
+      {
+        "id": "task",
+        "title": "Creating Strings",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1622"
+      },
+      {
+        "id": "task",
+        "title": "Apple Division",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1623"
+      },
+      {
+        "id": "task",
+        "title": "Chessboard and Queens",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1624"
+      },
+      {
+        "id": "task",
+        "title": "Digit Queries",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/2431"
+      },
+      {
+        "id": "task",
+        "title": "Grid Paths",
+        "tags": "Introductory Problems",
+        "url": "/problemset/task/1625"
+      }
+    ]
+  },
+  "Sorting and Searching": {
+    "tags": "Sorting and Searching",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Distinct Numbers",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1621"
+      },
+      {
+        "id": "task",
+        "title": "Apartments",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1084"
+      },
+      {
+        "id": "task",
+        "title": "Ferris Wheel",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1090"
+      },
+      {
+        "id": "task",
+        "title": "Concert Tickets",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1091"
+      },
+      {
+        "id": "task",
+        "title": "Restaurant Customers",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1619"
+      },
+      {
+        "id": "task",
+        "title": "Movie Festival",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1629"
+      },
+      {
+        "id": "task",
+        "title": "Sum of Two Values",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1640"
+      },
+      {
+        "id": "task",
+        "title": "Maximum Subarray Sum",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1643"
+      },
+      {
+        "id": "task",
+        "title": "Stick Lengths",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1074"
+      },
+      {
+        "id": "task",
+        "title": "Missing Coin Sum",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2183"
+      },
+      {
+        "id": "task",
+        "title": "Collecting Numbers",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2216"
+      },
+      {
+        "id": "task",
+        "title": "Collecting Numbers II",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2217"
+      },
+      {
+        "id": "task",
+        "title": "Playlist",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1141"
+      },
+      {
+        "id": "task",
+        "title": "Towers",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1073"
+      },
+      {
+        "id": "task",
+        "title": "Traffic Lights",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1163"
+      },
+      {
+        "id": "task",
+        "title": "Josephus Problem I",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2162"
+      },
+      {
+        "id": "task",
+        "title": "Josephus Problem II",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2163"
+      },
+      {
+        "id": "task",
+        "title": "Nested Ranges Check",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2168"
+      },
+      {
+        "id": "task",
+        "title": "Nested Ranges Count",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2169"
+      },
+      {
+        "id": "task",
+        "title": "Room Allocation",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1164"
+      },
+      {
+        "id": "task",
+        "title": "Factory Machines",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1620"
+      },
+      {
+        "id": "task",
+        "title": "Tasks and Deadlines",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1630"
+      },
+      {
+        "id": "task",
+        "title": "Reading Books",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1631"
+      },
+      {
+        "id": "task",
+        "title": "Sum of Three Values",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1641"
+      },
+      {
+        "id": "task",
+        "title": "Sum of Four Values",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1642"
+      },
+      {
+        "id": "task",
+        "title": "Nearest Smaller Values",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1645"
+      },
+      {
+        "id": "task",
+        "title": "Subarray Sums I",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1660"
+      },
+      {
+        "id": "task",
+        "title": "Subarray Sums II",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1661"
+      },
+      {
+        "id": "task",
+        "title": "Subarray Divisibility",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1662"
+      },
+      {
+        "id": "task",
+        "title": "Subarray Distinct Values",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/2428"
+      },
+      {
+        "id": "task",
+        "title": "Array Division",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1085"
+      },
+      {
+        "id": "task",
+        "title": "Sliding Window Median",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1076"
+      },
+      {
+        "id": "task",
+        "title": "Sliding Window Cost",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1077"
+      },
+      {
+        "id": "task",
+        "title": "Movie Festival II",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1632"
+      },
+      {
+        "id": "task",
+        "title": "Maximum Subarray Sum II",
+        "tags": "Sorting and Searching",
+        "url": "/problemset/task/1644"
+      }
+    ]
+  },
+  "Dynamic Programming": {
+    "tags": "Dynamic Programming",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Dice Combinations",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1633"
+      },
+      {
+        "id": "task",
+        "title": "Minimizing Coins",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1634"
+      },
+      {
+        "id": "task",
+        "title": "Coin Combinations I",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1635"
+      },
+      {
+        "id": "task",
+        "title": "Coin Combinations II",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1636"
+      },
+      {
+        "id": "task",
+        "title": "Removing Digits",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1637"
+      },
+      {
+        "id": "task",
+        "title": "Grid Paths",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1638"
+      },
+      {
+        "id": "task",
+        "title": "Book Shop",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1158"
+      },
+      {
+        "id": "task",
+        "title": "Array Description",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1746"
+      },
+      {
+        "id": "task",
+        "title": "Counting Towers",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/2413"
+      },
+      {
+        "id": "task",
+        "title": "Edit Distance",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1639"
+      },
+      {
+        "id": "task",
+        "title": "Rectangle Cutting",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1744"
+      },
+      {
+        "id": "task",
+        "title": "Money Sums",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1745"
+      },
+      {
+        "id": "task",
+        "title": "Removal Game",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1097"
+      },
+      {
+        "id": "task",
+        "title": "Two Sets II",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1093"
+      },
+      {
+        "id": "task",
+        "title": "Increasing Subsequence",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1145"
+      },
+      {
+        "id": "task",
+        "title": "Projects",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1140"
+      },
+      {
+        "id": "task",
+        "title": "Elevator Rides",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/1653"
+      },
+      {
+        "id": "task",
+        "title": "Counting Tilings",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/2181"
+      },
+      {
+        "id": "task",
+        "title": "Counting Numbers",
+        "tags": "Dynamic Programming",
+        "url": "/problemset/task/2220"
+      }
+    ]
+  },
+  "Graph Algorithms": {
+    "tags": "Graph Algorithms",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Counting Rooms",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1192"
+      },
+      {
+        "id": "task",
+        "title": "Labyrinth",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1193"
+      },
+      {
+        "id": "task",
+        "title": "Building Roads",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1666"
+      },
+      {
+        "id": "task",
+        "title": "Message Route",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1667"
+      },
+      {
+        "id": "task",
+        "title": "Building Teams",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1668"
+      },
+      {
+        "id": "task",
+        "title": "Round Trip",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1669"
+      },
+      {
+        "id": "task",
+        "title": "Monsters",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1194"
+      },
+      {
+        "id": "task",
+        "title": "Shortest Routes I",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1671"
+      },
+      {
+        "id": "task",
+        "title": "Shortest Routes II",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1672"
+      },
+      {
+        "id": "task",
+        "title": "High Score",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1673"
+      },
+      {
+        "id": "task",
+        "title": "Flight Discount",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1195"
+      },
+      {
+        "id": "task",
+        "title": "Cycle Finding",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1197"
+      },
+      {
+        "id": "task",
+        "title": "Flight Routes",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1196"
+      },
+      {
+        "id": "task",
+        "title": "Round Trip II",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1678"
+      },
+      {
+        "id": "task",
+        "title": "Course Schedule",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1679"
+      },
+      {
+        "id": "task",
+        "title": "Longest Flight Route",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1680"
+      },
+      {
+        "id": "task",
+        "title": "Game Routes",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1681"
+      },
+      {
+        "id": "task",
+        "title": "Investigation",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1202"
+      },
+      {
+        "id": "task",
+        "title": "Planets Queries I",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1750"
+      },
+      {
+        "id": "task",
+        "title": "Planets Queries II",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1160"
+      },
+      {
+        "id": "task",
+        "title": "Planets Cycles",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1751"
+      },
+      {
+        "id": "task",
+        "title": "Road Reparation",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1675"
+      },
+      {
+        "id": "task",
+        "title": "Road Construction",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1676"
+      },
+      {
+        "id": "task",
+        "title": "Flight Routes Check",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1682"
+      },
+      {
+        "id": "task",
+        "title": "Planets and Kingdoms",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1683"
+      },
+      {
+        "id": "task",
+        "title": "Giant Pizza",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1684"
+      },
+      {
+        "id": "task",
+        "title": "Coin Collector",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1686"
+      },
+      {
+        "id": "task",
+        "title": "Mail Delivery",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1691"
+      },
+      {
+        "id": "task",
+        "title": "De Bruijn Sequence",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1692"
+      },
+      {
+        "id": "task",
+        "title": "Teleporters Path",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1693"
+      },
+      {
+        "id": "task",
+        "title": "Hamiltonian Flights",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1690"
+      },
+      {
+        "id": "task",
+        "title": "Knight's Tour",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1689"
+      },
+      {
+        "id": "task",
+        "title": "Download Speed",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1694"
+      },
+      {
+        "id": "task",
+        "title": "Police Chase",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1695"
+      },
+      {
+        "id": "task",
+        "title": "School Dance",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1696"
+      },
+      {
+        "id": "task",
+        "title": "Distinct Routes",
+        "tags": "Graph Algorithms",
+        "url": "/problemset/task/1711"
+      }
+    ]
+  },
+  "Range Queries": {
+    "tags": "Range Queries",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Static Range Sum Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1646"
+      },
+      {
+        "id": "task",
+        "title": "Static Range Minimum Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1647"
+      },
+      {
+        "id": "task",
+        "title": "Dynamic Range Sum Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1648"
+      },
+      {
+        "id": "task",
+        "title": "Dynamic Range Minimum Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1649"
+      },
+      {
+        "id": "task",
+        "title": "Range Xor Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1650"
+      },
+      {
+        "id": "task",
+        "title": "Range Update Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1651"
+      },
+      {
+        "id": "task",
+        "title": "Forest Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1652"
+      },
+      {
+        "id": "task",
+        "title": "Hotel Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1143"
+      },
+      {
+        "id": "task",
+        "title": "List Removals",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1749"
+      },
+      {
+        "id": "task",
+        "title": "Salary Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1144"
+      },
+      {
+        "id": "task",
+        "title": "Prefix Sum Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/2166"
+      },
+      {
+        "id": "task",
+        "title": "Pizzeria Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/2206"
+      },
+      {
+        "id": "task",
+        "title": "Subarray Sum Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1190"
+      },
+      {
+        "id": "task",
+        "title": "Distinct Values Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1734"
+      },
+      {
+        "id": "task",
+        "title": "Increasing Array Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/2416"
+      },
+      {
+        "id": "task",
+        "title": "Forest Queries II",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1739"
+      },
+      {
+        "id": "task",
+        "title": "Range Updates and Sums",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1735"
+      },
+      {
+        "id": "task",
+        "title": "Polynomial Queries",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1736"
+      },
+      {
+        "id": "task",
+        "title": "Range Queries and Copies",
+        "tags": "Range Queries",
+        "url": "/problemset/task/1737"
+      }
+    ]
+  },
+  "Tree Algorithms": {
+    "tags": "Tree Algorithms",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Subordinates",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1674"
+      },
+      {
+        "id": "task",
+        "title": "Tree Matching",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1130"
+      },
+      {
+        "id": "task",
+        "title": "Tree Diameter",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1131"
+      },
+      {
+        "id": "task",
+        "title": "Tree Distances I",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1132"
+      },
+      {
+        "id": "task",
+        "title": "Tree Distances II",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1133"
+      },
+      {
+        "id": "task",
+        "title": "Company Queries I",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1687"
+      },
+      {
+        "id": "task",
+        "title": "Company Queries II",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1688"
+      },
+      {
+        "id": "task",
+        "title": "Distance Queries",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1135"
+      },
+      {
+        "id": "task",
+        "title": "Counting Paths",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1136"
+      },
+      {
+        "id": "task",
+        "title": "Subtree Queries",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1137"
+      },
+      {
+        "id": "task",
+        "title": "Path Queries",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1138"
+      },
+      {
+        "id": "task",
+        "title": "Path Queries II",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/2134"
+      },
+      {
+        "id": "task",
+        "title": "Distinct Colors",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/1139"
+      },
+      {
+        "id": "task",
+        "title": "Finding a Centroid",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/2079"
+      },
+      {
+        "id": "task",
+        "title": "Fixed-Length Paths I",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/2080"
+      },
+      {
+        "id": "task",
+        "title": "Fixed-Length Paths II",
+        "tags": "Tree Algorithms",
+        "url": "/problemset/task/2081"
+      }
+    ]
+  },
+  "Mathematics": {
+    "tags": "Mathematics",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Josephus Queries",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2164"
+      },
+      {
+        "id": "task",
+        "title": "Exponentiation",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1095"
+      },
+      {
+        "id": "task",
+        "title": "Exponentiation II",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1712"
+      },
+      {
+        "id": "task",
+        "title": "Counting Divisors",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1713"
+      },
+      {
+        "id": "task",
+        "title": "Common Divisors",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1081"
+      },
+      {
+        "id": "task",
+        "title": "Sum of Divisors",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1082"
+      },
+      {
+        "id": "task",
+        "title": "Divisor Analysis",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2182"
+      },
+      {
+        "id": "task",
+        "title": "Prime Multiples",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2185"
+      },
+      {
+        "id": "task",
+        "title": "Counting Coprime Pairs",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2417"
+      },
+      {
+        "id": "task",
+        "title": "Binomial Coefficients",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1079"
+      },
+      {
+        "id": "task",
+        "title": "Creating Strings II",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1715"
+      },
+      {
+        "id": "task",
+        "title": "Distributing Apples",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1716"
+      },
+      {
+        "id": "task",
+        "title": "Christmas Party",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1717"
+      },
+      {
+        "id": "task",
+        "title": "Bracket Sequences I",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2064"
+      },
+      {
+        "id": "task",
+        "title": "Bracket Sequences II",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2187"
+      },
+      {
+        "id": "task",
+        "title": "Counting Necklaces",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2209"
+      },
+      {
+        "id": "task",
+        "title": "Counting Grids",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2210"
+      },
+      {
+        "id": "task",
+        "title": "Fibonacci Numbers",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1722"
+      },
+      {
+        "id": "task",
+        "title": "Throwing Dice",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1096"
+      },
+      {
+        "id": "task",
+        "title": "Graph Paths I",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1723"
+      },
+      {
+        "id": "task",
+        "title": "Graph Paths II",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1724"
+      },
+      {
+        "id": "task",
+        "title": "Dice Probability",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1725"
+      },
+      {
+        "id": "task",
+        "title": "Moving Robots",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1726"
+      },
+      {
+        "id": "task",
+        "title": "Candy Lottery",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1727"
+      },
+      {
+        "id": "task",
+        "title": "Inversion Probability",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1728"
+      },
+      {
+        "id": "task",
+        "title": "Stick Game",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1729"
+      },
+      {
+        "id": "task",
+        "title": "Nim Game I",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1730"
+      },
+      {
+        "id": "task",
+        "title": "Nim Game II",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1098"
+      },
+      {
+        "id": "task",
+        "title": "Stair Game",
+        "tags": "Mathematics",
+        "url": "/problemset/task/1099"
+      },
+      {
+        "id": "task",
+        "title": "Grundy's Game",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2207"
+      },
+      {
+        "id": "task",
+        "title": "Another Game",
+        "tags": "Mathematics",
+        "url": "/problemset/task/2208"
+      }
+    ]
+  },
+  "String Algorithms": {
+    "tags": "String Algorithms",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Word Combinations",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/1731"
+      },
+      {
+        "id": "task",
+        "title": "String Matching",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/1753"
+      },
+      {
+        "id": "task",
+        "title": "Finding Borders",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/1732"
+      },
+      {
+        "id": "task",
+        "title": "Finding Periods",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/1733"
+      },
+      {
+        "id": "task",
+        "title": "Minimal Rotation",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/1110"
+      },
+      {
+        "id": "task",
+        "title": "Longest Palindrome",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/1111"
+      },
+      {
+        "id": "task",
+        "title": "Required Substring",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/1112"
+      },
+      {
+        "id": "task",
+        "title": "Palindrome Queries",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2420"
+      },
+      {
+        "id": "task",
+        "title": "Finding Patterns",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2102"
+      },
+      {
+        "id": "task",
+        "title": "Counting Patterns",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2103"
+      },
+      {
+        "id": "task",
+        "title": "Pattern Positions",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2104"
+      },
+      {
+        "id": "task",
+        "title": "Distinct Substrings",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2105"
+      },
+      {
+        "id": "task",
+        "title": "Repeating Substring",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2106"
+      },
+      {
+        "id": "task",
+        "title": "String Functions",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2107"
+      },
+      {
+        "id": "task",
+        "title": "Substring Order I",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2108"
+      },
+      {
+        "id": "task",
+        "title": "Substring Order II",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2109"
+      },
+      {
+        "id": "task",
+        "title": "Substring Distribution",
+        "tags": "String Algorithms",
+        "url": "/problemset/task/2110"
+      }
+    ]
+  },
+  "Geometry": {
+    "tags": "Geometry",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Point Location Test",
+        "tags": "Geometry",
+        "url": "/problemset/task/2189"
+      },
+      {
+        "id": "task",
+        "title": "Line Segment Intersection",
+        "tags": "Geometry",
+        "url": "/problemset/task/2190"
+      },
+      {
+        "id": "task",
+        "title": "Polygon Area",
+        "tags": "Geometry",
+        "url": "/problemset/task/2191"
+      },
+      {
+        "id": "task",
+        "title": "Point in Polygon",
+        "tags": "Geometry",
+        "url": "/problemset/task/2192"
+      },
+      {
+        "id": "task",
+        "title": "Polygon Lattice Points",
+        "tags": "Geometry",
+        "url": "/problemset/task/2193"
+      },
+      {
+        "id": "task",
+        "title": "Minimum Euclidean Distance",
+        "tags": "Geometry",
+        "url": "/problemset/task/2194"
+      },
+      {
+        "id": "task",
+        "title": "Convex Hull",
+        "tags": "Geometry",
+        "url": "/problemset/task/2195"
+      }
+    ]
+  },
+  "Advanced Techniques": {
+    "tags": "Advanced Techniques",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Meet in the Middle",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/1628"
+      },
+      {
+        "id": "task",
+        "title": "Hamming Distance",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2136"
+      },
+      {
+        "id": "task",
+        "title": "Beautiful Subgrids",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2137"
+      },
+      {
+        "id": "task",
+        "title": "Reachable Nodes",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2138"
+      },
+      {
+        "id": "task",
+        "title": "Reachability Queries",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2143"
+      },
+      {
+        "id": "task",
+        "title": "Cut and Paste",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2072"
+      },
+      {
+        "id": "task",
+        "title": "Substring Reversals",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2073"
+      },
+      {
+        "id": "task",
+        "title": "Reversals and Sums",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2074"
+      },
+      {
+        "id": "task",
+        "title": "Necessary Roads",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2076"
+      },
+      {
+        "id": "task",
+        "title": "Necessary Cities",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2077"
+      },
+      {
+        "id": "task",
+        "title": "Eulerian Subgraphs",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2078"
+      },
+      {
+        "id": "task",
+        "title": "Monster Game I",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2084"
+      },
+      {
+        "id": "task",
+        "title": "Monster Game II",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2085"
+      },
+      {
+        "id": "task",
+        "title": "Subarray Squares",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2086"
+      },
+      {
+        "id": "task",
+        "title": "Houses and Schools",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2087"
+      },
+      {
+        "id": "task",
+        "title": "Knuth Division",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2088"
+      },
+      {
+        "id": "task",
+        "title": "Apples and Bananas",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2111"
+      },
+      {
+        "id": "task",
+        "title": "One Bit Positions",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2112"
+      },
+      {
+        "id": "task",
+        "title": "Signal Processing",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2113"
+      },
+      {
+        "id": "task",
+        "title": "New Roads Queries",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2101"
+      },
+      {
+        "id": "task",
+        "title": "Dynamic Connectivity",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2133"
+      },
+      {
+        "id": "task",
+        "title": "Parcel Delivery",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2121"
+      },
+      {
+        "id": "task",
+        "title": "Task Assignment",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2129"
+      },
+      {
+        "id": "task",
+        "title": "Distinct Routes II",
+        "tags": "Advanced Techniques",
+        "url": "/problemset/task/2130"
+      }
+    ]
+  },
+  "Additional Problems": {
+    "tags": "Additional Problems",
+    "problems": [
+      {
+        "id": "task",
+        "title": "Shortest Subsequence",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1087"
+      },
+      {
+        "id": "task",
+        "title": "Counting Bits",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1146"
+      },
+      {
+        "id": "task",
+        "title": "Swap Game",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1670"
+      },
+      {
+        "id": "task",
+        "title": "Prüfer Code",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1134"
+      },
+      {
+        "id": "task",
+        "title": "Acyclic Graph Edges",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1756"
+      },
+      {
+        "id": "task",
+        "title": "Strongly Connected Edges",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2177"
+      },
+      {
+        "id": "task",
+        "title": "Even Outdegree Edges",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2179"
+      },
+      {
+        "id": "task",
+        "title": "Multiplication Table",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2422"
+      },
+      {
+        "id": "task",
+        "title": "Advertisement",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1142"
+      },
+      {
+        "id": "task",
+        "title": "Special Substrings",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2186"
+      },
+      {
+        "id": "task",
+        "title": "Permutation Inversions",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2229"
+      },
+      {
+        "id": "task",
+        "title": "Maximum Xor Subarray",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1655"
+      },
+      {
+        "id": "task",
+        "title": "Movie Festival Queries",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1664"
+      },
+      {
+        "id": "task",
+        "title": "Chess Tournament",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1697"
+      },
+      {
+        "id": "task",
+        "title": "Tree Traversals",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1702"
+      },
+      {
+        "id": "task",
+        "title": "Network Renovation",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1704"
+      },
+      {
+        "id": "task",
+        "title": "Graph Girth",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1707"
+      },
+      {
+        "id": "task",
+        "title": "Intersection Points",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1740"
+      },
+      {
+        "id": "task",
+        "title": "Inverse Inversions",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2214"
+      },
+      {
+        "id": "task",
+        "title": "Monotone Subsequences",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2215"
+      },
+      {
+        "id": "task",
+        "title": "String Reorder",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1743"
+      },
+      {
+        "id": "task",
+        "title": "Stack Weights",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2425"
+      },
+      {
+        "id": "task",
+        "title": "Pyramid Array",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1747"
+      },
+      {
+        "id": "task",
+        "title": "Increasing Subsequence II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1748"
+      },
+      {
+        "id": "task",
+        "title": "String Removals",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1149"
+      },
+      {
+        "id": "task",
+        "title": "Bit Inversions",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1188"
+      },
+      {
+        "id": "task",
+        "title": "Xor Pyramid",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2419"
+      },
+      {
+        "id": "task",
+        "title": "Writing Numbers",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1086"
+      },
+      {
+        "id": "task",
+        "title": "String Transform",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1113"
+      },
+      {
+        "id": "task",
+        "title": "Letter Pair Move Game",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2427"
+      },
+      {
+        "id": "task",
+        "title": "Maximum Building I",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1147"
+      },
+      {
+        "id": "task",
+        "title": "Sorting Methods",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1162"
+      },
+      {
+        "id": "task",
+        "title": "Cyclic Array",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1191"
+      },
+      {
+        "id": "task",
+        "title": "List of Sums",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2414"
+      },
+      {
+        "id": "task",
+        "title": "Increasing Array II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2132"
+      },
+      {
+        "id": "task",
+        "title": "Food Division",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1189"
+      },
+      {
+        "id": "task",
+        "title": "Bit Problem",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1654"
+      },
+      {
+        "id": "task",
+        "title": "Swap Round Sorting",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1698"
+      },
+      {
+        "id": "task",
+        "title": "Binary Subsequences",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2430"
+      },
+      {
+        "id": "task",
+        "title": "Tree Isomorphism I",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1700"
+      },
+      {
+        "id": "task",
+        "title": "Counting Sequences",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2228"
+      },
+      {
+        "id": "task",
+        "title": "Critical Cities",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1703"
+      },
+      {
+        "id": "task",
+        "title": "School Excursion",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1706"
+      },
+      {
+        "id": "task",
+        "title": "Coin Grid",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1709"
+      },
+      {
+        "id": "task",
+        "title": "Robot Path",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1742"
+      },
+      {
+        "id": "task",
+        "title": "Programmers and Artists",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2426"
+      },
+      {
+        "id": "task",
+        "title": "Course Schedule II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1757"
+      },
+      {
+        "id": "task",
+        "title": "Removing Digits II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2174"
+      },
+      {
+        "id": "task",
+        "title": "Coin Arrangement",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2180"
+      },
+      {
+        "id": "task",
+        "title": "Counting Bishops",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2176"
+      },
+      {
+        "id": "task",
+        "title": "Grid Puzzle I",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2432"
+      },
+      {
+        "id": "task",
+        "title": "Grid Puzzle II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2131"
+      },
+      {
+        "id": "task",
+        "title": "Empty String",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1080"
+      },
+      {
+        "id": "task",
+        "title": "Grid Paths",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1078"
+      },
+      {
+        "id": "task",
+        "title": "Bit Substrings",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2115"
+      },
+      {
+        "id": "task",
+        "title": "Reversal Sorting",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2075"
+      },
+      {
+        "id": "task",
+        "title": "Counting Reorders",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2421"
+      },
+      {
+        "id": "task",
+        "title": "Book Shop II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1159"
+      },
+      {
+        "id": "task",
+        "title": "Network Breakdown",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1677"
+      },
+      {
+        "id": "task",
+        "title": "Visiting Cities",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1203"
+      },
+      {
+        "id": "task",
+        "title": "Missing Coin Sum Queries",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2184"
+      },
+      {
+        "id": "task",
+        "title": "Number Grid",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1157"
+      },
+      {
+        "id": "task",
+        "title": "Maximum Building II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1148"
+      },
+      {
+        "id": "task",
+        "title": "Filling Trominos",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2423"
+      },
+      {
+        "id": "task",
+        "title": "Stick Divisions",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1161"
+      },
+      {
+        "id": "task",
+        "title": "Coding Company",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1665"
+      },
+      {
+        "id": "task",
+        "title": "Flight Route Requests",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1699"
+      },
+      {
+        "id": "task",
+        "title": "Two Stacks Sorting",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2402"
+      },
+      {
+        "id": "task",
+        "title": "Tree Isomorphism II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1701"
+      },
+      {
+        "id": "task",
+        "title": "Forbidden Cities",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1705"
+      },
+      {
+        "id": "task",
+        "title": "Area of Rectangles",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1741"
+      },
+      {
+        "id": "task",
+        "title": "Grid Completion",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2429"
+      },
+      {
+        "id": "task",
+        "title": "Creating Offices",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1752"
+      },
+      {
+        "id": "task",
+        "title": "Permutations II",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1075"
+      },
+      {
+        "id": "task",
+        "title": "Functional Graph Distribution",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2415"
+      },
+      {
+        "id": "task",
+        "title": "New Flight Routes",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/1685"
+      },
+      {
+        "id": "task",
+        "title": "Grid Path Construction",
+        "tags": "Additional Problems",
+        "url": "/problemset/task/2418"
+      }
+    ]
+  }
+}
