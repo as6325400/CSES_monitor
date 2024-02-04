@@ -17,7 +17,7 @@ export async function getProblemSet(url: string): Promise<ProblemSetMap> {
         $(element).next().find("a").each((index, element) => {
           const title = $(element).text();
           const url = $(element).attr("href")!;
-          const id = url.split("/")[2];
+          const id = url.split("/")[3];
           problems.push({ id: id, title: title, tags: tags, url: url });
         });
         problemMaps[tags] = { tags: tags, problems: problems };
