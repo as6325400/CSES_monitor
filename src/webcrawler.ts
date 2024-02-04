@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from "axios";
 import cheerio from "cheerio";
-import { Problem, ProblemSetMap } from "./problem";
-import dotenv from "dotenv";
+import { ProblemSetMap } from "./problem";
+import * as dotenv from "dotenv";
 
 dotenv.config();
 
@@ -15,15 +15,13 @@ export async function getProblemSet(): Promise<ProblemSetMap> {
 
     $("h2").each((index, element) => {
       const tags = $(element).text();
-      const problems: Problem[] = [];
       if (tags !== "General") {
         $(element).next().find("a").each((index, element) => {
           const title = $(element).text();
           const url = $(element).attr("href")!;
           const id = url.split("/")[3];
-          problems.push({ id: id, title: title, tags: tags, url: url });
+          problemMaps[title] = { id: id, title: title, tags: tags, url: url };
         });
-        problemMaps[tags] = { tags: tags, problems: problems };
       }
     });
 
@@ -95,4 +93,17 @@ export async function getAcceptSet(id: string): Promise<Set<string>> {
   }
 }
 
+export async function getUserName(id: string): Promise<string> {
+  const url = process.env.CSES_URL + "user/" + id;
+  try {
+    const response : AxiosResponse = await axios.get(url);
+    const html = response.data;
+    const $ = cheerio.load(html);
+    const name = $("h1").text().split(" ")[1];
+    return name;
+  } catch (error) {
+    console.error("Error fetching or parsing:", error);
+    throw error;
+  }
+}
 

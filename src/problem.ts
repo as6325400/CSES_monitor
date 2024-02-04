@@ -5,11 +5,7 @@ export interface Problem {
   url: string;
 }
 
-export interface ProblemSet {
-  tags: string;
-  problems: Problem[];
-}
 
 export interface ProblemSetMap {
-  [key: string]: ProblemSet;
+  [key: string]: Problem;
 }

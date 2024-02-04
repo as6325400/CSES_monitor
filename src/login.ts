@@ -1,7 +1,7 @@
 import axios from "axios";
 import cheerio from "cheerio";
 import qs from "qs";
-import dotenv from "dotenv";
+import * as dotenv from "dotenv";
 
 dotenv.config();
 
