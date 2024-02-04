@@ -1,9 +1,11 @@
 {
   "dependencies": {
+    "@types/qs": "^6.9.11",
     "axios": "^1.6.7",
     "cheerio": "^1.0.0-rc.12",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.1",
+    "qs": "^6.11.2",
     "ts-node": "^10.9.2"
   },
   "name": "discordtest",
@@ -15,7 +17,9 @@
     "lint": "eslint --ext .ts src",
     "fix": "eslint --fix --ext .ts src"
   },
-  "pre-commit": ["lint"],
+  "pre-commit": [
+    "lint"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
