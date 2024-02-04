@@ -1,10 +1,13 @@
 import axios, { AxiosResponse } from "axios";
 import cheerio from "cheerio";
 import { Problem, ProblemSetMap } from "./problem";
+import dotenv from "dotenv";
 
+dotenv.config();
 
-export async function getProblemSet(url: string): Promise<ProblemSetMap> {
+export async function getProblemSet(): Promise<ProblemSetMap> {
   try {
+    const url = process.env.CSES_URL + "problemset/" || "https://cses.fi/problemset/";
     const response: AxiosResponse = await axios.get(url);
     const html = response.data;
     const $ = cheerio.load(html);
@@ -31,5 +34,23 @@ export async function getProblemSet(url: string): Promise<ProblemSetMap> {
   }
 }
 
+export async function getAcceptedNum(id: string): Promise<number> {
+  
+  const url = process.env.CSES_URL + "user/" + id;
+  
+  try {
+    
+    const response : AxiosResponse = await axios.get(url);
+    const html = response.data;
+    
+    const $ = cheerio.load(html);
+    const accepted : number = Number($("table.narrow a").first().text());
+    
+    return accepted;
+  }catch (error) {
+    console.error("Error fetching or parsing:", error);
+    throw error;
+  }
+}
 
 
