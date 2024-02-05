@@ -17,17 +17,19 @@ dotenv.config();
   let channel : TextChannel | undefined;
 
   await BOT.login(process.env.BOT_TOKEN);
+  
+  const query : Query = await Query.init();
+  await User.loadUser(USERID_SET);
+
+  
   BOT.on("ready", () => {
     console.log("Bot is ready!");
     channel = BOT.channels.cache.get(process.env.BOT_CHANNEL_ID!) as TextChannel;
   });
-  
-  const query : Query = await Query.init();
-  const userQueue : User[] = await User.loadUser(USERID_SET);
 
   // eslint-disable-next-line no-constant-condition
   while (true) {
-    for (const user of userQueue) {
+    for (const user of User.getUserSet()) {
       const newProblemSets = await getAcceptSet(user.Id);
       if (!user.equalSets(newProblemSets)) {
         channel?.send(`User ${user.Name} has new accepted problems!`);

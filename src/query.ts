@@ -3,14 +3,19 @@ import { Problem, ProblemSetMap } from "./problem";
 
 export class Query {
   private problemSet: ProblemSetMap;
+  private tagSets: Set<string> = new Set<string>();
 
-  private constructor(Set : ProblemSetMap) {
-    this.problemSet = Set;
+  private constructor(problemSet: ProblemSetMap) {
+    this.problemSet = problemSet;
+    for (const key in problemSet) {
+      const tags = problemSet[key].tags;
+      this.tagSets.add(tags);
+    }
   }
 
-  static async init() : Promise<Query> {
-    const Set : ProblemSetMap =  await getProblemSet();
-    return new Query(Set);
+  static async init(): Promise<Query> {
+    const problemSet: ProblemSetMap = await getProblemSet();
+    return new Query(problemSet);
   }
 
   public getProblemSet(): ProblemSetMap {
@@ -28,5 +33,9 @@ export class Query {
       }
     }
     return null;
+  }
+
+  public getTagSets(): Set<string> {
+    return this.tagSets;
   }
 }

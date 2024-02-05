@@ -7,29 +7,31 @@ export class User{
   Id: string;
   Accept: number;
   AcceptProblem: Set<string>;
+  static userSet : Set<User> = new Set<User>();
 
   private constructor(name: string, id: string, accept: number, acceptProblem: Set<string>) {
     this.Name = name;
     this.Id = id;
     this.Accept = accept;
     this.AcceptProblem = acceptProblem;
+    User.userSet.add(this);
   }
 
-  static async createUser(id: string): Promise<User> {
+  static async createUser(id: string): Promise<void> {
     
     const name : string = await getUserName(id);
     const accept : number= await getAcceptedNum(id);
     const acceptProblem : Set<string> = await getAcceptSet(id);
     
-    return new User(name, id, accept, acceptProblem);
+    new User(name, id, accept, acceptProblem);
   }
 
-  static async loadUser(idSets : string []) : Promise<User[]> {
-    const users : User[] = [];
+  static async loadUser(idSets : string []) : Promise<void> {
+    
     for (const id of idSets) {
-      users.push(await User.createUser(id));
+      await User.createUser(id);
     }
-    return users;
+    
   }
 
   public diffSets (newSet: Set<string>): Set<string> {
@@ -47,6 +49,12 @@ export class User{
     for (const problem of newAcceptProblem) {
       this.AcceptProblem.add(problem);
     }
+  }
+
+
+
+  public static getUserSet() : Set<User> {
+    return User.userSet;
   }
 }
 
