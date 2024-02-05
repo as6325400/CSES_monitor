@@ -19,13 +19,14 @@ dotenv.config();
 
   await BOT.login(process.env.BOT_TOKEN);
   
-  const query : Query = await Query.init();
-  await User.loadUser(USERID_SET);
-
   BOT.on("ready", () => {
     console.log("Bot is ready!");
     channel = BOT.channels.cache.get(process.env.BOT_CHANNEL_ID!) as TextChannel;
   });
+
+  const query : Query = await Query.init();
+  await User.loadUser(USERID_SET);
+
 
   BOT.on("messageCreate", async (message) => {
     handleMessage(message, query);
@@ -36,8 +37,12 @@ dotenv.config();
   // eslint-disable-next-line no-constant-condition
   while (true) {
     for (const user of User.getUserSet()) {
+      // console.log(user);
       const newProblemSets = await getAcceptSet(user.Id);
-      if (!user.equalSets(newProblemSets)) {
+      const diff = user.diffSets(newProblemSets);
+      console.log(diff);
+      if (diff.size > 0) {
+        console.log(`User ${user.Name} has new accepted problems!`);
         channel?.send(`User ${user.Name} has new accepted problems!`);
         const diff = user.diffSets(newProblemSets);
         for (const problem of diff) {
@@ -51,6 +56,6 @@ dotenv.config();
         user.updateAccept(diff);
       }
     }
-    await new Promise(resolve => setTimeout(resolve, 1000 * 60));
+    await new Promise(resolve => setTimeout(resolve, 1000 * 5));
   }
 })();

@@ -3,9 +3,14 @@ import { Query } from "./query";
 import { User } from "./user";
 import { getUserExist } from "./webcrawler";
 
+function isNumber(input: string): boolean {
+  const regex = /^[0-9]+$/; 
+  return regex.test(input);
+}
+
 export async function handleMessage(message: Message, query: Query, ) {
-  if (message.author.bot || !message.content.startsWith(process.env.BOT_PREFIX!)) return;
   const command : string[] = message.content.split(" ");
+  if (message.author.bot || command[0] != process.env.BOT_PREFIX!) return;
   if (command.length < 2) return;
   if (command[1] === "tagsets") {
 
@@ -27,18 +32,39 @@ export async function handleMessage(message: Message, query: Query, ) {
       return;
     }
 
+    if(command.length > 3) {
+      message?.reply("Please input the correct user id!");
+      return;
+    }
+
+    if(command[2].length > 7){
+      message?.reply("Please input the correct user id!");
+      return;
+    }
+
+    if(isNumber(command[2]) === false) {
+      message?.reply("Please input the correct user id!");
+      return;
+    }
+
     if (getUserExist(command[2]) === null) {
       message?.reply("User does not exist!");
       return;
     }
+
+    command[2] = parseInt(command[2]).toString();
 
     const newUser: User | string = await User.createUser(command[2]);
 
     if (typeof newUser === "string") {
       message?.reply(newUser);
     }
-    else {
-      message?.reply(`User ${newUser.Name} has been added!`);
+    else if (typeof newUser === "object"){
+      console.log(newUser);
+      message?.reply(`User ${newUser.Name} add success!`);
+    }
+    else if (newUser === undefined) {
+      message?.reply("User does not exist!");
     }
   }
 

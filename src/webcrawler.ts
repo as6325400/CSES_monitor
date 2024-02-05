@@ -114,7 +114,7 @@ export async function getUserExist(id: string): Promise<string | null> {
     const html = response.data;
     const $ = cheerio.load(html);
     const name = $("h1").text().split(" ")[1];
-    return name;
+    return name == undefined ? null : name;
   } catch (error) {
     console.error("Error fetching or parsing:", error);
     return null;

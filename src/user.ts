@@ -68,14 +68,12 @@ export class User{
     return diff;
   }
 
-  public equalSets (newSet : Set<string>): boolean {
-    return this.diffSets(newSet).size === 0;
-  }
   
   public updateAccept(newAcceptProblem: Set<string>): void {
     for (const problem of newAcceptProblem) {
       this.AcceptProblem.add(problem);
     }
+    this.Accept = this.AcceptProblem.size;
   }
 
 
