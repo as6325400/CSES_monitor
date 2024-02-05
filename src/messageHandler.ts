@@ -41,4 +41,28 @@ export async function handleMessage(message: Message, query: Query, ) {
       message?.reply(`User ${newUser.Name} has been added!`);
     }
   }
+
+  else if (command[1] == "show"){
+    if (command.length < 3) {
+      message?.reply("Please input the user name!");
+      return;
+    }
+
+    if(command[2] === "all") {
+      let mes : string = "";
+      for (const user of User.getUserSet()) {
+        mes += `User ${user.Name} has ${user.Accept} accepted problems!\n`;
+      }
+      message?.reply(mes);
+      return;
+    }
+
+    for (const user of User.getUserSet()) {
+      if (user.Name === command[2]) {
+        message?.reply(`User ${user.Name} has ${user.Accept} accepted problems!`);
+        return;
+      }
+    }
+    message?.reply("User does not in database!");
+  }
 }

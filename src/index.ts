@@ -51,6 +51,6 @@ dotenv.config();
         user.updateAccept(diff);
       }
     }
-    await new Promise(resolve => setTimeout(resolve, 1000 * 5));
+    await new Promise(resolve => setTimeout(resolve, 1000 * 60));
   }
 })();
