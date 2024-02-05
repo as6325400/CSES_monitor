@@ -14,7 +14,7 @@ export class Query {
   }
 
   static async init(): Promise<Query> {
-    const problemSet: ProblemSetMap = await getProblemSet() 
+    const problemSet: ProblemSetMap = await getProblemSet(); 
     return new Query(problemSet);
   }
 
