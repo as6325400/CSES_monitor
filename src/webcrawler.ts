@@ -107,3 +107,16 @@ export async function getUserName(id: string): Promise<string> {
   }
 }
 
+export async function getUserExist(id: string): Promise<string | null> {
+  const url = process.env.CSES_URL + "user/" + id;
+  try {
+    const response : AxiosResponse = await axios.get(url);
+    const html = response.data;
+    const $ = cheerio.load(html);
+    const name = $("h1").text().split(" ")[1];
+    return name;
+  } catch (error) {
+    console.error("Error fetching or parsing:", error);
+    return null;
+  }
+}

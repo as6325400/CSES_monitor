@@ -1,4 +1,5 @@
-import { getUserName, getAcceptedNum, getAcceptSet } from "./webcrawler";
+import { getUserName, getAcceptedNum, getAcceptSet, getUserExist } from "./webcrawler";
+import fs from "fs";
 
 
 export class User{
@@ -14,18 +15,44 @@ export class User{
     this.Id = id;
     this.Accept = accept;
     this.AcceptProblem = acceptProblem;
-    User.userSet.add(this);
   }
 
-  static async createUser(id: string): Promise<void> {
+  static async createUser(id: string): Promise<User | string> {
+
+    if(await getUserExist(id) === null) return "The user not exist!";
+
+    for (const user of User.userSet) {
+      if (user.Id === id) return "The user already exist!";
+    }
     
     const name : string = await getUserName(id);
     const accept : number= await getAcceptedNum(id);
     const acceptProblem : Set<string> = await getAcceptSet(id);
-    
-    new User(name, id, accept, acceptProblem);
+
+    const user = new User(name, id, accept, acceptProblem);
+    User.userSet.add(user);
+    User.saveUser();
+
+    return user;
   }
 
+  static async saveUser() : Promise<void> {
+
+    const nowUserId : string[]= [];
+
+    for (const user of User.userSet) {
+      nowUserId.push(user.Id);
+    }
+
+    const obj = {
+      "USERID_SET": nowUserId
+    };
+
+    const data = JSON.stringify(obj, null, 2);
+    fs.writeFileSync("./file/User.json", data);
+  }
+  // this method is used to load all the users from the file
+  // you need to check if the user exists in the file
   static async loadUser(idSets : string []) : Promise<void> {
     
     for (const id of idSets) {
