@@ -77,7 +77,7 @@ export async function handleMessage(message: Message, query: Query, ) {
     if(command[2] === "all") {
       let mes : string = "";
       for (const user of User.getUserSet()) {
-        mes += `User [${user.Name}](https://cses.fi/problemset/) has \`${user.Accept}\` accepted problems\n`;
+        mes += `User [${user.Name}](https://cses.fi/problemset/user/${user.Id}/) has \`${user.Accept}\` accepted problems\n`;
       }
 
       if(mes === "") {
@@ -89,7 +89,7 @@ export async function handleMessage(message: Message, query: Query, ) {
 
     for (const user of User.getUserSet()) {
       if (user.Name === command[2]) {
-        message?.reply(`User [${user.Name}](https://cses.fi/problemset/) has \`${user.Accept}\` accepted problems`);
+        message?.reply(`User [${user.Name}](https://cses.fi/problemset/user/${user.Id}/) has \`${user.Accept}\` accepted problems`);
         return;
       }
     }

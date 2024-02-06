@@ -26,8 +26,8 @@ export class User{
     }
     
     const name : string = await getUserName(id);
-    const accept : number= await getAcceptedNum(id);
     const acceptProblem : Set<string> = await getAcceptSet(id);
+    const accept : number= acceptProblem.size;
 
     const user = new User(name, id, accept, acceptProblem);
     User.userSet.add(user);
