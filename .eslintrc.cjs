@@ -8,6 +8,7 @@ module.exports = {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "double"],
-    "semi": "error"
+    "semi": "error",
+    "linebreak-style": ["error", process.platform === 'win32' ? 'windows' : 'unix'],
   }
 };
